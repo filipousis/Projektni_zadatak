@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="Enlglish">
+		<head>
+			<title>Projektni zadatak</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<meta charset="utf-8">
+			<meta name="Autor" content="F.Š">
+			<meta name="Description" content="Projektni zadatak za predmet Web aplikacije">
+			<meta name="vieport" content="width=device-width, initial-scale=1">
+			<link rel="icon" href="SlikeP/390104.png" type="image/gif" sizes="16x16">
+		</head>
+
+		<body>
+			<header>
+				<div>
+					<img src="SlikeP/AI-CAREER2.jpg" class="naslovna2" alt="Slika26">
+				</div>
+
+				<div class="div2">
+					<ul id="navigacija">
+						<li class="list"><a href="index.html">Home</a></li>
+						<li class="list"><a href="news.html">News</a></li>
+						<li class="list"><a href="history.html">About</a></li>
+						<li class="list"><a href="gallery.html">Gallery</a></li>
+						<li class="list"><a href="Contact.html">Contact</a></li>
+					</ul>
+				</div>
+
+				<h1 style="margin: 5px; text-align: left;">Contact</h1>
+			</header>
+			<main>
+				<div style="width:50%; height: 420px; margin-top:20px; margin-left: 10px; border: 1px solid; float: left;" >
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177992.2938900945!2d15.927732110818534!3d45.80866296110773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe159703d90972cf3!2sVeleu%C4%8Dili%C5%A1te%20Velika%20Gorica!5e0!3m2!1shr!2shr!4v1606746549608!5m2!1shr!2shr" width="800" height="600" frameborder="0" style="border:0; width: 100%; height: 420px; margin-left: 0px; " allowfullscreen="" aria-hidden="false" tabindex="0">
+					</iframe>
+				</div>
+
+				<div style="float: left; width: 40%; height: 350px;margin-top:20px; margin-left: 10px; ">
+					<form action="#">
+						<label for="fname">First name:</label>
+						<br>
+						<input type="text" id="fname" name="fisrname" placeholder="Your name..." style="width: 600px;height: 30px;"><br><br>
+
+						<label for="lname">Last name:</label>
+						<br>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..." style="width: 600px; height: 30px;"><br><br>
+
+						<label for="fname">E-mail:</label>
+						<br>
+						<input type="text" id="mail" name="email" pattern=".+@gmail.com" size="30" placeholder="Your e-mail..." style="width: 600px; height: 30px;"><br><br>
+
+						<label for="country">Country:</label>
+						<br>
+							<select id="country" name="country" style="width: 610px; height: 40px;">
+								<option value="">Please select</option>
+							  	<option value="UK">United Kingdom</option>
+							  	<option value="HR" selected>Croatia</option>
+							  	<option value="It">Italy</option>
+							  	<option value="Ge">Germany</option>
+							  	<option value="Fr">France</option>
+							  	<option value="Pl">Poland</option>
+							  	<option value="Sl">Slovenia</option>
+							</select>
+						<br>
+						<br>
+						<label for="subject">Subject:</label>
+						<br>
+						<textarea id="subject" name="subject" placeholder="Write something..">
+						</textarea>
+						<br>
+						<br>
+						<input type="submit" value="Submit">
+
+					</form>
+				</div>
+				<div style="clear: both;"></div>
+			</main>
+
+			<footer>
+				<div style="width: 100%; height: 40px; background-color: #a6a6a6; text-align: center;">
+					<b><p style="font-size: 20px; padding: 6px; color: white;">
+						Copyright © 2020 FŠ.
+					</p></b>
+				</div>
+			</footer>
+
+		</body>
+</html>

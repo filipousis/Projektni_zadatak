@@ -1,0 +1,167 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, serif;
+	
+
+}
+
+.naslovna {
+	width: 100%;
+	height: 500px;
+
+}
+
+.div2 {
+	border: 1.5px solid black;
+	width: 100%;
+	height: 40px;
+	background-color:#a6a6a6;
+	text-align: center;
+
+}
+
+#navigacija {
+	list-style-type: none;
+	margin: 3px;
+
+
+
+}
+
+#navigacija li {
+	display: inline-block;
+
+	
+}
+
+#navigacija li a {
+	text-decoration: none;
+	color: white ;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+
+}
+
+.list {
+	font-size: 30px;
+	
+
+}
+
+#navigacija a:hover {
+	background-color: black;
+	transition: 0.4s;
+
+
+}
+
+.div3 {
+	border: 1px solid black;
+	width: 30%;
+	height: 260px;
+	margin-left: 5px;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 2px;
+
+}
+
+.slikaH {
+	float: left;
+	margin-left: 5px;
+	width: 1.5%;
+
+}
+
+
+
+
+/*NEWS STRANICA*/
+
+.naslovna2 {
+	width: 100%;
+	height: 400px;
+}
+
+.slikeN {
+	width: 80%;
+	margin-left: 5px;
+	margin-right: 15px;
+}
+
+.vijesti {
+	float: left;
+}
+
+.paragraf {
+	width: 78%;
+	height: 130px; 
+	float: left;
+	display: block;
+
+}
+.horizontalna {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	 
+	margin-right: 5px;
+}
+
+
+
+/*HISTORY STRANCICA*/
+
+.left {
+	margin-left: 5px;
+}
+
+.lista {
+	margin-bottom: 6px;
+}
+
+/*GALLERY*/
+
+/*.okviri {
+	float: left;
+	width: 32.4%;
+	height: 330px;
+	margin:5px;
+	padding:2px;
+	border: 1px solid black;
+	text-align: center;
+}*/
+
+.gallery {
+	width: 100%;
+	height: 92%;
+}
+
+.figure {
+	float: left;
+	width: 32.4%;
+	height: 330px;
+	margin:5px;
+	margin-bottom: 10px;
+	padding:2px;
+	text-align: center;
+	
+}
+
+.figcaption {
+  background-color: #a6a6a6;
+  color: white;
+  font-style: italic;
+  padding: 1.5px;
+  padding-left: 0px;
+  text-align: center;
+  width: 99.9%;
+
+
+}
+
